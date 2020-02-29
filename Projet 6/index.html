@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/cells.js"></script>
+        <script type="text/javascript" src="js/function.js"></script>
+        <script type="text/javascript" src="js/canvas.js"></script>
+        <script type="text/javascript" src="js/walls.js"></script>
+        <script type="text/javascript" src="js/players.js"></script>
+        <script type="text/javascript" src="js/weapons.js"></script>
+        <script type="text/javascript" src="js/movement.js"></script>
+        <script type="text/javascript" src="js/fight.js"></script>
+        <script type="text/javascript" src="js/mains.js"></script>
+        <title>Canvas tutorial</title>
+    </head>
+    <body>
+        <div id='conteneur'>
+            <div id='win'><canvas id="tutorial" width="900" height="900"></canvas>
+            <img class='imgWin'>
+            </div>
+            <button id="start" type="button">Start</button>
+            <div id="blue">
+                <h1>BLEU </h1>
+                <h2 class="life"></h2>
+                <h2 class="weapon"></h2>
+                <img class='imgWeapon'>
+                <h2 class='weaponDamage'></h2>
+            </div>
+            <div id="red">
+                <h1>ROUGE</h1>
+                <h2 class="life"></h2>
+                <h2 class="weapon"></h2>
+                <img class='imgWeapon'>
+                <h2 class='weaponDamage'></h2>
+            </div>
+        </div>
+        <div id="combat">
+            <button id="boutonAttaque" type="button">Attaque</button>
+            <button id="boutonDefense" type="button">Défense</button>
+            <textarea readonly id="combatText" name="story"
+                      rows="5" cols="33">
+            </textarea>
+        </div>
+    </body>
+</html>
